@@ -7,3 +7,8 @@ jekyll new myblog
 ```ruby
 bundle exec jekyll serve
 ```
+
+## Overriding theme defaultsPermalink
+```ruby
+open $(bundle info --path minima)
+```
