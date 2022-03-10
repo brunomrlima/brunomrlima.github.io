@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Two Sum Challenge"
-date:   2022-03-08 08:00:00 -0500
+date:   2022-03-09 08:00:00 -0500
 categories: challenges
 ---
 
