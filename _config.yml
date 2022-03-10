@@ -21,9 +21,9 @@
 title: Bruno's Notes
 email: bruno.mrlima@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Bruno Monteiro is a senior software developer.
-  He is exprienced with Ruby and Ruby on Rails.
-  Infrastructure: Docker, Kubernetes, AWS (RDS, EC2, ECR)
+    Bruno Monteiro is a Senior Software Developer.
+    He is experienced with Ruby, Ruby on Rails, Javascript, ReactJS, 
+    Docker, Kubernetes, AWS Tools (ECR, EC2, S3, RDS, CloudFront, CodeDeploy)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brunomrlima.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  brunomrlima
