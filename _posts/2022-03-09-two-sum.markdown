@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Two Sum Challenge"
+date:   2022-03-08 08:00:00 -0500
+categories: challenges
+---
+
+[leetcode][leetcode]{:target="_blank"}
+
+[leetcode]: https://leetcode.com/problems/two-sum/
+
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+
+Example:
+{% highlight ruby %}
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+{% endhighlight %}
+
+Solution:
+{% highlight ruby %}
+def two_sum(nums, target)
+    dict = {}
+    nums.each_with_index do |n, i|
+        if dict[target - n]
+            return dict[target - n], i
+        end
+    dict[n] = i
+    end
+end
+{% endhighlight %}
