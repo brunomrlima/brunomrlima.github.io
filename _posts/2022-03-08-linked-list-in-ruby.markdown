@@ -5,6 +5,10 @@ date:   2022-03-08 08:00:00 -0500
 categories: ruby
 ---
 
+{:refdef: style="text-align: center;"}
+![My helpful screenshot](/assets/images/linked_list.png)
+{: refdef}
+
 {% highlight ruby %}
 class LinkedList
   attr_accessor :head
