@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git Cherrypick Range of Commits"
-date:   2022-03-25 08:00:00 -0500
+date:   2022-03-29 08:00:00 -0500
 categories: git
 ---
 

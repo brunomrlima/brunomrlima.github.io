@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Create Matchers in RSpec"
-date:   2022-03-25 08:00:00 -0500
+date:   2022-03-26 08:00:00 -0500
 categories: rspec
 ---
 Reference: [RSpec Custom Matchers][RspecLink]{:target="_blank"}
