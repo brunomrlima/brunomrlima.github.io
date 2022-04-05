@@ -27,12 +27,26 @@ class LinkedList
 
   def tail
     return @head if @head.nil?
+
     node = @head
     while !node.next.nil?
       node = node.next
     end
-    
+
     node
+  end
+
+  def has_cycle?
+    slow_runner = @head
+    fast_runner = @head&.next
+
+    while !fast_runner.nil? && !slow_runner.nil? && fast_runner != slow_runner
+      slow_runner = slow_runner.next
+      fast_runner = fast_runner.next&.next
+    end
+
+    return false if slow_runner.nil? || fast_runner.nil?
+    return true if slow_runner == fast_runner
   end
 
   private
