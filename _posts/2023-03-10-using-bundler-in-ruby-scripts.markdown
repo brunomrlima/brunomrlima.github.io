@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Bundler in Ruby scripts"
-date:   2022-03-29 08:00:00 -0500
+date:   2023-03-10 08:00:00 -0500
 categories: git
 ---
 
